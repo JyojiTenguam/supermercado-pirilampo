@@ -1,0 +1,31 @@
+{
+  "root": true,
+  "extends": [
+    "trybe-fundamentals"
+  ],
+  "rules": {
+    "prefer-destructuring": "off",
+    "max-lines": [
+      "off"
+    ],
+    "no-undef": [
+      "off"
+    ],
+    "no-console": "off",
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "no-param-reassign": "off",
+    "prefer-const": "off",
+    "no-restricted-syntax": [
+      "off",
+      "FunctionExpression",
+      "WithStatement",
+      "BinaryExpression[operator='in']"
+    ]
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "jest": true
+  }
+}

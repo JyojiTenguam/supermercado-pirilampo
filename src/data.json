@@ -1,0 +1,530 @@
+[
+  {
+    "id": 1,
+    "productName": "Arroz",
+    "brand": "Tio João",
+    "description": "Arroz integral Tio João, pacote de 1kg, rico em fibras e vitaminas.",
+    "price": 10.99,
+    "quantityInStock": 50,
+    "allergyOrIntolerance": ["glúten", "soja", "castanhas"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "50g",
+      "calories": 180,
+      "carbohydrates": 38,
+      "proteins": 4,
+      "fats": 1,
+      "vitamins": {
+        "vitaminB1": 20,
+        "vitaminB6": 10
+      }
+    }
+  },
+  {
+    "id": 2,
+    "productName": "Feijão",
+    "brand": "Camil",
+    "description": "Feijão preto Camil, pacote de 1kg, fonte de proteínas e ferro.",
+    "price": 8.99,
+    "quantityInStock": 30,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "50g",
+      "calories": 70,
+      "carbohydrates": 13,
+      "proteins": 5,
+      "vitamins": {
+        "vitaminB6": 6
+      }
+    }
+  },
+  {
+    "id": 3,
+    "productName": "Macarrão",
+    "brand": "Renata",
+    "description": "Macarrão Renata, pacote de 500g, fonte de carboidratos.",
+    "price": 5.99,
+    "quantityInStock": 20,
+    "allergyOrIntolerance": ["glúten"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "80g",
+      "calories": 280,
+      "carbohydrates": 60,
+      "proteins": 10
+    }
+  },
+  {
+    "id": 4,
+    "productName": "Açúcar",
+    "brand": "União",
+    "description": "Açúcar União, pacote de 1kg, fonte de carboidratos.",
+    "price": 3.99,
+    "quantityInStock": 10,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "5g",
+      "calories": 20,
+      "carbohydrates": 5
+    }
+  },
+  {
+    "id": 5,
+    "productName": "Azeite",
+    "brand": "Andorinha",
+    "description": "Azeite de oliva Andorinha, garrafa de 500ml, extra virgem e rico em antioxidantes.",
+    "price": 18.99,
+    "quantityInStock": 20,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "15ml",
+      "calories": 130,
+      "fats": 14,
+      "vitamins": {
+        "vitaminE": 15,
+        "vitaminK": 4
+      }
+    }
+  },
+  {
+    "id": 6,
+    "productName": "Granola",
+    "brand": "Mãe Terra",
+    "description": "Granola Mãe Terra, pacote de 300g, fonte de fibras e minerais.",
+    "price": 12.99,
+    "quantityInStock": 20,
+    "allergyOrIntolerance": ["castanhas"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "30g",
+      "calories": 130,
+      "carbohydrates": 18,
+      "proteins": 3,
+      "fats": 5
+    }
+  },
+  {
+    "id": 7,
+    "productName": "Batata",
+    "brand": "Agrocampo",
+    "description": "Batata Agrocampo, saco de 2kg, fonte de carboidratos e fibras.",
+    "price": 7.99,
+    "quantityInStock": 40,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 77,
+      "carbohydrates": 18,
+      "proteins": 2,
+      "vitamins": {
+        "vitaminC": 24,
+        "vitaminB6": 10
+      }
+    }
+  },
+  {
+    "id": 8,
+    "productName": "Iogurte",
+    "brand": "Danone",
+    "description": "Iogurte Danone, pote de 500g, fonte de cálcio e probióticos.",
+    "price": 5.49,
+    "quantityInStock": 30,
+    "allergyOrIntolerance": ["leite"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 63,
+      "carbohydrates": 9,
+      "proteins": 5,
+      "fats": 1
+    }
+  },
+  {
+    "id": 9,
+    "productName": "Lentilha",
+    "brand": "Vapza",
+    "description": "Lentilha cozida Vapza, lata de 200g, fonte de proteínas e fibras.",
+    "price": 3.99,
+    "quantityInStock": 0,
+    "onSale": true,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 106,
+      "carbohydrates": 18,
+      "proteins": 7,
+      "vitamins": {
+        "vitaminB6": 15
+      }
+    }
+  },
+  {
+    "id": 10,
+    "productName": "Coca-Cola Lata",
+    "brand": "Coca-Cola Company",
+    "description": "Refrigerante Coca-Cola, lata de 350ml, sabor original e refrescante.",
+    "price": 2.99,
+    "quantityInStock": 50,
+    "onSale": true,
+    "nutritionalInfo": {
+      "servingSize": "1 lata (350ml)",
+      "calories": 140,
+      "carbohydrates": 39
+    }
+  },
+  {
+    "id": 11,
+    "productName": "Suco de uva",
+    "brand": "Del Valle",
+    "description": "Suco de uva Del Valle, garrafa de 1L, sem adição de açúcares e conservantes.",
+    "price": 7.99,
+    "quantityInStock": 0,
+    "onSale": true,
+    "nutritionalInfo": {
+      "servingSize": "200ml",
+      "calories": 140,
+      "carbohydrates": 34,
+      "vitamins": {
+        "vitaminC": 30
+      }
+    }
+  },
+  {
+    "id": 12,
+    "productName": "Pizza congelada",
+    "brand": "Sadia",
+    "description": "Pizza sabor muçarela Sadia, caixa de 450g, massa crocante e queijo derretido.",
+    "price": 12.99,
+    "quantityInStock": 9,
+    "allergyOrIntolerance": ["glúten", "leite"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "1 fatia (75g)",
+      "calories": 208,
+      "carbohydrates": 23,
+      "proteins": 8,
+      "fats": 9,
+      "vitamins": {
+        "vitaminA": 4
+      }
+    }
+  },
+  {
+    "id": 13,
+    "productName": "Nutella",
+    "brand": "Ferrero",
+    "description": "Creme de avelã com cacau Nutella, pote de 350g, ideal para passar no pão ou comer com frutas.",
+    "price": 19.99,
+    "quantityInStock": 10,
+    "allergyOrIntolerance": ["castanhas", "leite"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "20g",
+      "calories": 107,
+      "carbohydrates": 10,
+      "proteins": 1,
+      "fats": 7
+    }
+  },
+  {
+    "id": 14,
+    "productName": "Nozes",
+    "brand": "Fazenda São Francisco",
+    "description": "Nozes sem casca Fazenda São Francisco, pacote de 200g, fonte de gorduras boas e minerais.",
+    "price": 19.99,
+    "quantityInStock": 0,
+    "allergyOrIntolerance": ["castanhas"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "30g",
+      "calories": 200,
+      "carbohydrates": 4,
+      "proteins": 4,
+      "fats": 20,
+      "vitamins": {
+        "vitaminB6": 5
+      }
+    }
+  },
+  {
+    "id": 15,
+    "productName": "Salmão",
+    "brand": "Seara",
+    "description": "Filé de salmão Seara, embalagem de 500g, fonte de proteínas e ômega-3.",
+    "price": 39.99,
+    "quantityInStock": 5,
+    "onSale": true,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 220,
+      "proteins": 25,
+      "fats": 15,
+      "vitamins": {
+        "vitaminA": 1,
+        "vitaminD": 50,
+        "vitaminB6": 25,
+        "vitaminB12": 80
+      }
+    }
+  },
+  {
+    "id": 16,
+    "productName": "Carne moída",
+    "brand": "Swift",
+    "description": "Carne bovina moída Swift, pacote de 500g, ideal para preparar diversas receitas.",
+    "price": 14.99,
+    "quantityInStock": 30,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 200,
+      "proteins": 18,
+      "fats": 15,
+      "vitamins": {
+        "vitaminB6": 15,
+        "vitaminB12": 50
+      }
+    }
+  },
+  {
+    "id": 17,
+    "productName": "Laranja",
+    "brand": "Fazenda Doce Sabor",
+    "description": "Laranja fresca Fazenda Doce Sabor, saco com 2kg, fonte de vitamina C.",
+    "price": 7.99,
+    "quantityInStock": 40,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "1 unidade (150g)",
+      "calories": 60,
+      "carbohydrates": 15,
+      "proteins": 1,
+      "vitamins": {
+        "vitaminA": 2,
+        "vitaminC": 80
+      }
+    }
+  },
+  {
+    "id": 18,
+    "productName": "Biscoito recheado",
+    "brand": "Nestlé",
+    "description": "Biscoito recheado Nestlé, pacote de 130g, sabor chocolate.",
+    "price": 1.99,
+    "quantityInStock": 10,
+    "allergyOrIntolerance": ["glúten", "leite", "soja"],
+    "onSale": true,
+    "nutritionalInfo": {
+      "servingSize": "26g (4 unidades)",
+      "calories": 120,
+      "carbohydrates": 18,
+      "proteins": 1,
+      "fats": 5
+    }
+  },
+  {
+    "id": 19,
+    "productName": "Ovo",
+    "brand": "Granja XYZ",
+    "description": "Ovo branco Granja XYZ, caixa com 30 unidades, fonte de proteínas e vitaminas.",
+    "price": 11.99,
+    "quantityInStock": 20,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "1 unidade (50g)",
+      "calories": 70,
+      "proteins": 6,
+      "fats": 5,
+      "vitamins": {
+        "vitaminA": 6,
+        "vitaminD": 20,
+        "vitaminB6": 5,
+        "vitaminB12": 15
+      }
+    }
+  },
+  {
+    "id": 20,
+    "productName": "Cerveja Pilsen Brahma",
+    "brand": "Brahma",
+    "description": "Cerveja Pilsen Brahma, lata de 350ml, sabor refrescante e leve.",
+    "price": 3.49,
+    "quantityInStock": 40,
+    "allergyOrIntolerance": ["glúten"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "1 lata (350ml)",
+      "calories": 150,
+      "carbohydrates": 10,
+      "proteins": 1
+    }
+  },
+  {
+    "id": 21,
+    "productName": "Cerveja Weiss Eisenbahn",
+    "brand": "Eisenbahn",
+    "description": "Cerveja Weiss Eisenbahn, garrafa de 500ml, sabor encorpado e aromático.",
+    "price": 7.99,
+    "quantityInStock": 20,
+    "allergyOrIntolerance": ["glúten"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "1 garrafa (500ml)",
+      "calories": 300,
+      "carbohydrates": 28,
+      "proteins": 4
+    }
+  },
+  {
+    "id": 22,
+    "productName": "Cerveja IPA Colorado",
+    "brand": "Colorado",
+    "description": "Cerveja India Pale Ale Colorado, lata de 473ml, sabor amargo e intenso.",
+    "price": 9.99,
+    "quantityInStock": 15,
+    "allergyOrIntolerance": ["glúten"],
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "1 lata (473ml)",
+      "calories": 240,
+      "carbohydrates": 18,
+      "proteins": 2,
+      "vitamins": {
+        "vitaminB6": 10
+      }
+    }
+  },
+  {
+    "id": 23,
+    "productName": "Cerveja sem glúten",
+    "brand": "Daura",
+    "description": "Cerveja sem glúten Daura, garrafa de 330ml, sabor equilibrado e leve.",
+    "price": 8.99,
+    "quantityInStock": 2,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "1 garrafa (330ml)",
+      "calories": 120,
+      "carbohydrates": 10,
+      "proteins": 1
+    }
+  },
+  {
+    "id": 24,
+    "productName": "Alface",
+    "brand": "Hortifruti",
+    "description": "Alface Hortifruti, pacote de 200g, folhas frescas e crocantes.",
+    "price": 4.99,
+    "quantityInStock": 7,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 15,
+      "carbohydrates": 3,
+      "proteins": 1,
+      "vitamins": {
+        "vitaminA": 80,
+        "vitaminC": 6,
+        "vitaminB6": 5
+      }
+    }
+  },
+  {
+    "id": 25,
+    "productName": "Rúcula",
+    "brand": "Hortifruti",
+    "description": "Rúcula Hortifruti, pacote de 100g, folhas verdes e picantes.",
+    "price": 3.99,
+    "quantityInStock": 40,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 25,
+      "carbohydrates": 3,
+      "proteins": 3,
+      "vitamins": {
+        "vitaminA": 30,
+        "vitaminC": 15,
+        "vitaminB6": 10
+      }
+    }
+  },
+  {
+    "id": 26,
+    "productName": "Agrião",
+    "brand": "Hortifruti",
+    "description": "Agrião Hortifruti, pacote de 150g, folhas verdes e picantes.",
+    "price": 5.99,
+    "quantityInStock": 30,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 11,
+      "carbohydrates": 2,
+      "proteins": 1,
+      "vitamins": {
+        "vitaminA": 150,
+        "vitaminC": 60,
+        "vitaminB6": 5
+      }
+    }
+  },
+  {
+    "id": 27,
+    "productName": "Cenoura",
+    "brand": "Hortifruti",
+    "description": "Cenoura Hortifruti, pacote de 500g, cenouras frescas e crocantes.",
+    "price": 3.99,
+    "quantityInStock": 60,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 41,
+      "carbohydrates": 10,
+      "proteins": 1,
+      "vitamins": {
+        "vitaminA": 400,
+        "vitaminC": 7,
+        "vitaminB6": 5
+      }
+    }
+  },
+  {
+    "id": 99,
+    "productName": "Beterraba",
+    "brand": "Hortifruti",
+    "description": "Beterraba Hortifruti, pacote de 400g, beterrabas frescas e saborosas.",
+    "price": 2.99,
+    "quantityInStock": 0,
+    "onSale": true,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 43,
+      "carbohydrates": 10,
+      "proteins": 1,
+      "vitamins": {
+        "vitaminA": 2,
+        "vitaminC": 6,
+        "vitaminB6": 5
+      }
+    }
+  },
+  {
+    "id": 29,
+    "productName": "Batata Doce",
+    "brand": "Hortifruti",
+    "description": "Batata Doce Hortifruti, pacote de 1kg, batatas doces frescas e saborosas.",
+    "price": 6.99,
+    "quantityInStock": 25,
+    "onSale": false,
+    "nutritionalInfo": {
+      "servingSize": "100g",
+      "calories": 86,
+      "carbohydrates": 20,
+      "proteins": 1,
+      "vitamins": {
+        "vitaminA": 14187,
+        "vitaminC": 22,
+        "vitaminB6": 15
+      }
+    }
+  }
+]
