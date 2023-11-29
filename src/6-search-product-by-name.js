@@ -10,9 +10,10 @@ const searchProductByName = (name) => {
         description: stockProducts[index].description,
         formattedPrice: `R$ ${stockProducts[index].price}`,
       };
+      return productByName;
     }
   }
-  return productByName;
+  return null;
 };
 
 module.exports = { searchProductByName };
