@@ -10,7 +10,7 @@ const getProductsWithAllergyOrIntoleranceInfo = () => {
         {
           description: stockProducts[index].description,
           formattedPrice: `R$ ${stockProducts[index].price}`,
-          allergyOrIntoleranceMessage: `Pode conter: ${stockProducts[index].allergyOrIntolerance.join(' ')}`,
+          allergyMessage: `Pode conter: ${stockProducts[index].allergyOrIntolerance.join(' ')}`,
         },
       );
     }
