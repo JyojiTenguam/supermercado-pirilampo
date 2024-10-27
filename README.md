@@ -31,7 +31,7 @@ A aplicação desenvolvida apresenta as seguintes características:
 1. Clone este repositório para o seu computador:
 
     ```
-    git@github.com:JyojiTenguam/SupermercadoPirilampo.git
+    git@github.com:JyojiTenguam/supermercado-pirilampo.git
     ```
 
 2. Navegue até o diretório do projeto:
