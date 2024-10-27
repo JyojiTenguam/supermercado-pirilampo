@@ -37,7 +37,7 @@ A aplicação desenvolvida apresenta as seguintes características:
 2. Navegue até o diretório do projeto:
 
     ```
-    cd SupermercadoPirilampo
+    cd supermercado-pirilampo
     ```
 
 3. Instale as dependências do projeto:
