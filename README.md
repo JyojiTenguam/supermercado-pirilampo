@@ -52,3 +52,5 @@ A aplicação desenvolvida apresenta as seguintes características:
 
 5. **Visualize o Projeto**:
    - Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
+
+Lembre-se de substituir `"seu-usuario"` pelo seu nome de usuário no GitHub para que o link do fork seja correto.
