@@ -25,3 +25,30 @@ A aplicação desenvolvida apresenta as seguintes características:
 - Interface Amigável: Design responsivo e fácil de usar.
 - Validação Semântica: O layout foi validado usando CodeSniffer para garantir boa semântica.
 - Testes: Implementação de testes para garantir a funcionalidade das funções.
+
+## Instruções de Instalação e Uso
+
+1. **Faça um Fork do Repositório**:
+   - No GitHub, acesse o [repositório original do projeto](https://github.com/JyojiTenguam/supermercado-pirilampo) e clique no botão **"Fork"** no canto superior direito para criar uma cópia do projeto na sua conta.
+
+2. **Clone o Repositório Forkado**:
+   - Após fazer o fork, clone o repositório para o seu computador:
+
+    ```bash
+    git clone git@github.com:seu-usuario/supermercado-pirilampo.git
+    ```
+
+3. **Navegue até o Diretório do Projeto**:
+
+    ```bash
+    cd supermercado-pirilampo
+    ```
+
+4. **Instale as Dependências**:
+
+    ```bash
+    npm install
+    ```
+
+5. **Visualize o Projeto**:
+   - Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
