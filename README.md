@@ -1,56 +1,57 @@
-# Project Supermercado Pirilampo
+# 🛒 Supermercado Pirilampo
 
-Este projeto foi desenvolvido como parte do curso da Trybe, com o objetivo de criar uma área de Gestão de Estoque para o Supermercado Pirilampo. Neste repositório, você encontrará informações sobre como configurar e executar o projeto, bem como detalhes sobre as funcionalidades implementadas.
+Uma aplicação simples de gestão de estoque para o Supermercado Pirilampo, desenvolvida como exercício do módulo de Fundamentos da Trybe.
 
-## Tecnologias Utilizadas
+## ✨ Demonstração
+
+> O projeto exibe informações sobre os produtos disponíveis no supermercado, incluindo a quantidade em estoque e se há produtos com baixo estoque.
+
+## 📋 Índice
+
+- [Sobre](#-sobre)
+- [Habilidades desenvolvidas](#-habilidades-desenvolvidas)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como rodar o projeto](#-como-rodar-o-projeto)
+- [Autor](#-autor)
+
+## 💡 Sobre
+
+Este projeto foi desenvolvido para gerenciar os produtos de um supermercado fictício. Ele permite visualizar a quantidade de produtos em estoque, listar os produtos com estoque baixo e exibir o total de itens no supermercado. A aplicação utiliza conceitos de JavaScript, HTML e CSS.
+
+- Exibição de produtos no estoque
+- Identificação de produtos com baixo estoque
+- Listagem de produtos únicos
+- Total de produtos no estoque
+
+## 🛠️ Habilidades desenvolvidas
+
+- Manipulação de arrays e objetos em JavaScript
+- Exibição dinâmica de dados no HTML
+- Estilização com CSS
+- Estruturação de código modular e organizado
+
+## 🧪 Tecnologias utilizadas
 
 - JavaScript
 - HTML
 - CSS
 
-## Funcionalidades do Projeto
+## 🚀 Como rodar o projeto
 
-A aplicação desenvolvida apresenta as seguintes características:
+1. Clone o repositório:
 
-- Gestão de Estoque: Permite visualizar a quantidade de produtos únicos em estoque.
-- Listagem de Produtos: Exibe os nomes dos produtos únicos e os produtos indisponíveis.
-- Baixo Estoque: Identifica produtos com baixo estoque e exibe quantidades.
-- Total de Produtos: Fornece o total de produtos em estoque.
-- Busca de Produtos: Funções para buscar produtos pelo nome e pela marca.
-- Promoções: Mostra os produtos em promoção.
-- Informações de Alergia: Retorna produtos que possuem informações sobre alergia ou intolerância.
-- Produtos Ricos em Vitaminas: Lista alimentos ricos em vitaminas.
+```bash
+git clone https://github.com/JyojiTenguam/supermercado-pirilampo.git
+```
 
-### Requisitos Bônus
-- Interface Amigável: Design responsivo e fácil de usar.
-- Validação Semântica: O layout foi validado usando CodeSniffer para garantir boa semântica.
-- Testes: Implementação de testes para garantir a funcionalidade das funções.
+2. Acesse a pasta do projeto
 
-## Instruções de Instalação e Uso
+```bash
+cd supermercado-pirilampo
+```
 
-1. **Faça um Fork do Repositório**:
-   - No GitHub, acesse o [repositório original do projeto](https://github.com/JyojiTenguam/supermercado-pirilampo) e clique no botão **"Fork"** no canto superior direito para criar uma cópia do projeto na sua conta.
+3. Abra o arquivo index.html em seu navegador preferido para visualizar a aplicação.
 
-2. **Clone o Repositório Forkado**:
-   - Após fazer o fork, clone o repositório para o seu computador:
+## 👤 Autor
 
-    ```bash
-    git clone git@github.com:seu-usuario/supermercado-pirilampo.git
-    ```
-
-3. **Navegue até o Diretório do Projeto**:
-
-    ```bash
-    cd supermercado-pirilampo
-    ```
-
-4. **Instale as Dependências**:
-
-    ```bash
-    npm install
-    ```
-
-5. **Visualize o Projeto**:
-   - Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
-
-Lembre-se de substituir `"seu-usuario"` pelo seu nome de usuário no GitHub para que o link do fork seja correto.
+Este projeto foi desenvolvido como parte do curso de Desenvolvimento Web da Trybe, por Jyoji Tenguam.
